@@ -10,4 +10,4 @@ MAINTAINER Steve Tsang <mylagimail2004@yahoo.com>
 # Updates and Installs
 RUN pip3 install --upgrade pip
 RUN pip3 install pvacseq
-RUN pvacseq download_example_data -h .
+RUN pvacseq download_example_data -h /
